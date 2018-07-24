@@ -1,2 +1,30 @@
 body{
+  color: white;
+  margin: 0 auto;
+}
+
+header{
+  height: 100px;
+  width: 100%;
+  background-color: blue;
+  border-bottom: 3px solid grey;
+}
+
+#logo{
+  display: inline;
+  padding-left: 50px;
+
+}
+
+#nav{
+  display: inline;
+  float: right;
+  padding-right: 50px;
+  padding-top: 35px;
+}
+
+#nav a{
+  text-decoration: none;
+  padding-right: 25px;
+  color: white;
 }
