@@ -4,15 +4,46 @@
     <meta charset="utf-8">
     <title>UX ATLANTIC</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
   <body>
   <header>
-    <div id="logo">
-      LOGO GOES HERE
+    <div class="logo">
+      <img src="./img/logo.png" />
     </div>
-    <div id="nav">
-      <a href="">Home</a><a href="">Travel</a><a href="">Deals</a><a href="">Flight Schedule</a><a href="">Register/Login</a>
+    <div class="nav">
+      <a href="" style="color: #16d8e2;"><img src="./img/home-icon.png" height="15px">Home</a><a href=""><img src="./img/plane-icon.png" height="15px">Travel Deals</a><a href=""><img src="./img/schedule-icon.png" height="15px" />Flight Schedule</a><a href=""><img src="./img/login-icon.png" height="15px" />Login</a>
     </div>
   </header>
+    <div class="floatingBox">
+      <div class="triBox">
+        <div class="plane"><a href=""><img src="./img/plane-icon.png" height="30px"></a></div>
+        <div class="hotel-car"><a href=""><img src="./img/hotel-icon.png" height="30px"></a></div>
+        <div class="hotel-car"><a href=""><img src="./img/car-icon.png" height="30px"></a></div>
+      </div>
+      <div class="forms-buttons">
+        <div class="form1">
+        <form><input type="text" name="Depart" value="Depart">    <input type="text" name="Arrive" value="Arrive"></form>
+        </div>
+        <div class="form2">
+        <form><input type="text" name="mdy" value="mm/dd/yy">    <input type="text" name="mdy" value="mm/dd/yy"></form>
+        </div>
+        <div class="menu">
+          <p>Passengers</p><select name="number">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+          </select>
+          <form class="radio">
+    <input type="radio" name="return" value="return" Checked> Return
+    <input type="radio" name="OneWay" value="Oneway"> One Way
+          </form>
+        </div>
+        <div class="search">
+            <input type="submit" value="Search Flights">
+        </div>
+      </div>
+    </div>
   </body>
 </html>
