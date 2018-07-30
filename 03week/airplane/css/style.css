@@ -1,0 +1,141 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  background-image: url("../img/airline.jpg" );
+  color: white;
+  margin: 0 auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header{
+  height: 85px;
+  width: 100%;
+  background-color: #183A55;
+  border-bottom: 2px solid grey;
+
+}
+
+.logo{
+  display: inline;
+}
+
+.nav{
+  display: inline;
+  float: right;
+  padding-right: 50px;
+  padding-top: 35px;
+}
+
+.nav a{
+  text-decoration: none;
+  padding-right: 25px;
+  color: white;
+  font-size: 14px;
+}
+
+.nav img{
+  padding-right: 5px;
+}
+
+.floatingBox{
+  width: 400px;
+  height: 350px;
+  background-color: white;
+  margin-top: 100px;
+  margin-left: 100px;
+  color: black;
+  border-radius: 5px;
+}
+
+.triBox div{
+  box-sizing: border-box;
+  padding-top: 10px;
+  height: 50px;
+  width: 33.33%;
+  display: inline;
+  text-align: center;
+  float: left;
+}
+
+.plane{
+  background-color: #0060B9;
+}
+
+.hotel-car{
+  background-color: #008E80;
+}
+
+.forms-buttons{
+  background-color: #183A55;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.form1{
+  padding-top: 75px;
+  word-spacing: 10px;
+}
+
+.form2{
+  padding-top: 25px;
+  word-spacing: 10px;
+}
+
+input[type=text]{
+  width: 150px;
+  height: 35px;
+  border: 2px solid white;
+  border-radius: 4px;
+  background: none;
+  color: gray;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.menu{
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 25px;
+  color: white;
+  font-size: 12px;
+  display: inline-block;
+  float: left;
+}
+
+p{
+  display: inline;
+  padding-right: 27px;
+}
+
+select{
+  color: white;
+  background: none;
+  height: 35px;
+  width: 75px;
+  border: 2px solid white;
+  border-radius: 4px;
+  text-align: center;
+  display: inline;
+  margin: 0 0;
+  display: inline;
+}
+
+.radio{
+  display: inline;
+  padding-left: 25px;
+}
+
+.search{
+  padding-top: 100px;
+}
+
+.search input{
+  width: 375px;
+  height: 45px;
+  color: white;
+  background-color: #0060B9;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
