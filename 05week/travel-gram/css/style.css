@@ -1,1 +1,164 @@
+body{
+  font-family: sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+  "box1 box1 box2 box2"
+  "box3 box3 box4 box5"
+  "box3 box3 box6 box6"
+  "box7 box8 box9 box10";
+  color: white;
+  grid-gap: 1em;
+  background-color: lightgrey;
+}
 
+@media (max-width: 768px) {
+    body{
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas:
+      "box1 box1"
+      "box2 box3"
+      "box4 box4"
+      "box5 box6"
+      "box7 box7"
+      "box8 box9"
+      "box10 box10";
+    }
+ }
+
+ @media (max-width: 576px) {
+   body{
+     grid-template-columns: 1fr;
+     grid-template-areas:
+     "box1"
+     "box2"
+     "box3"
+     "box4"
+     "box5"
+     "box6"
+     "box7"
+     "box8"
+     "box9"
+     "box10";
+   }
+ }
+
+.small-icon{
+  font-size: 40px;
+  padding: 1em;
+}
+
+ .medium-icon{
+   font-size: 60px;
+   padding: 1em;
+}
+
+ .large-icon{
+   font-size: 200px;
+   /* padding: 1em; */
+}
+
+ p{
+   font-size: 12px;
+   padding: 1em;
+}
+
+.box1{
+  background-color: black;
+  grid-area: box1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1em;
+}
+
+.box2{
+  background-color: red;
+  grid-area: box2;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1em;
+}
+
+.box3{
+  background-color: blue;
+  grid-area: box3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.box4{
+  background-color: purple;
+  grid-area: box4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.box5{
+  background-color: green;
+  grid-area: box5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.box6{
+  background-color: orange;
+  grid-area: box6;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1em;
+}
+
+.box7{
+  background-color: grey;
+  grid-area: box7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.box8{
+  background-color: yellow;
+  grid-area: box8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.box9{
+  background-color: crimson;
+  grid-area: box9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.box10{
+  background-color: cyan;
+  grid-area: box10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
