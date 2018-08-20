@@ -1,0 +1,87 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.trigger{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.trigger:hover > .box:nth-child(even){
+  transform: translate(500px) rotateZ(360deg);
+  height: 100px;
+  width: 100px;
+}
+
+.trigger:hover > .box:nth-child(odd){
+  transform: translate(-500px) rotateZ(-360deg);
+  height: 25px;
+  width: 25px;
+}
+
+.trigger > .box:nth-child(even){
+  transition: transform 3s ease-in-out;
+}
+
+.trigger > .box:nth-child(odd){
+  transition: transform 1.5s ease-in-out;
+}
+
+.box{
+  height: 50px;
+  width: 50px;
+}
+
+#box1{
+  background-color: red;
+}
+
+#box2{
+  background-color: orange;
+}
+
+#box3{
+  background-color: purple;
+}
+
+#box4{
+  background-color: blue;
+}
+
+#box5{
+  background-color: yellow;
+}
+
+#box6{
+  background-color: green;
+}
+
+#box7{
+  background-color: cyan;
+}
+
+#box8{
+  background-color: black;
+}
+
+#box9{
+  background-color: grey;
+}
+
+#box10{
+  background-color: brown;
+}
+
+#box11{
+  background-color: darkgray;
+}
+
+#box12{
+  background-color: navy;
+}
