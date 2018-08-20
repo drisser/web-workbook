@@ -1,0 +1,11 @@
+body{
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 200px;
+  padding: 100px;
+  border: solid;
+  font-size: 30px;
+}
