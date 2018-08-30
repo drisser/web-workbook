@@ -72,9 +72,9 @@ function eraseItem(){
 }
 
 function insertRemoveItemExistingItems () {
-  let list = document.getElementsByTagName("li");
+  let list = document.getElementsByTagName("ul");
   let removeButton = document.createElement("button");
   removeButton.innerHTML = "Remove";
-  list[0].appendChild(removeButton);
+  list.appendChild(removeButton);
   removeButton.onclick = eraseItem;
 }
