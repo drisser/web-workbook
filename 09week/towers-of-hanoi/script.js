@@ -22,11 +22,11 @@ $('[data-stack]').droppable({
     checkWin();
   }
 });
-])
-function checkWin(){
-  if($("[data-stack=3], [data-stack=2]").children().length === 4)
-
-}
+//
+// function checkWin(){
+//   if($("[data-stack=3], [data-stack=2]").children().length === 4)
+//
+// }
 
 
 
