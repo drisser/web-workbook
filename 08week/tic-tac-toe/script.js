@@ -21,49 +21,49 @@ $(document).ready(function() {
       $('[data-cell="1"]').text() === turn &&
       $('[data-cell="2"]').text() === turn)
       {
-        console.log('win!');
+        alert('win!');
       }
       else if($('[data-cell="3"]').text() === turn &&
         $('[data-cell="4"]').text() === turn &&
         $('[data-cell="5"]').text() === turn)
         {
-          console.log('win!');
+          alert('win!');
         }
       else if($('[data-cell="6"]').text() === turn &&
         $('[data-cell="7"]').text() === turn &&
         $('[data-cell="8"]').text() === turn)
         {
-          console.log('win!');
+          alert('win!');
         }
       else if ($('[data-cell="0"]').text() === turn &&
         $('[data-cell="3"]').text() === turn &&
         $('[data-cell="6"]').text() === turn)
         {
-          console.log('win!');
+          alert('win!');
         }
       else if ($('[data-cell="1"]').text() === turn &&
         $('[data-cell="4"]').text() === turn &&
         $('[data-cell="7"]').text() === turn)
         {
-          console.log('win!');
+          alert('win!');
         }
       else if ($('[data-cell="2"]').text() === turn &&
         $('[data-cell="5"]').text() === turn &&
         $('[data-cell="8"]').text() === turn)
         {
-          console.log('win!');
+          alert('win!');
         }
       else if ($('[data-cell="0"]').text() === turn &&
         $('[data-cell="4"]').text() === turn &&
         $('[data-cell="8"]').text() === turn)
         {
-          console.log('win!');
+          alert('win!');
         }
       else if ($('[data-cell="2"]').text() === turn &&
         $('[data-cell="4"]').text() === turn &&
         $('[data-cell="6"]').text() === turn)
         {
-          console.log('win!');
+          alert('win!');
         }
       else {
         console.log('nothing')
